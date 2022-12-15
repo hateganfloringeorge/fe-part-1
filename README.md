@@ -6,10 +6,10 @@
 <!-- PROJECT HEAD -->
 <br />
 <div align="center">
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center"> Survey form</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Small project for frontend practice
     <br />
   </p>
 </div>
@@ -31,6 +31,7 @@
 ## About The Project
 
 Short project in order to practice frontend development. The goal of this project is to have a page similar to <a href="#project-reference">this</a>. The list of full specifications and more details can be found <a href="#project-details"> here.</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
