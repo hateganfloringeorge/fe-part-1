@@ -1,4 +1,22 @@
 <!DOCTYPE HTML>
 <html>
-    <!-- TOOD link with css -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Website Feedback</h1>
+        <p id="description">"Don't trust a mirror that only tells you how wonderful you look."</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+            <label for="email" id="email-label" >Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+            <label for="number" id="number-label">Age:</label>
+            <input type="number" id="number" name="number" placeholder="Enter your age" min="9" max="130"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>
