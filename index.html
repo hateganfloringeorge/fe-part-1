@@ -16,7 +16,29 @@
             <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
             <label for="number" id="number-label">Age:</label>
             <input type="number" id="number" name="number" placeholder="Enter your age" min="9" max="130"><br><br>
-            <input type="submit" value="Submit">
+            <label for="dropdown" id="dropdown-label">Rate how the website looks:</label>
+            <select id="dropdown">
+                <option value="blank">Rate aspect</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select><br><br>
+            <p>Are you a robot?</p>
+                <input type="radio" id="yes" name="robot_check" value="yes">
+                <label for="yes" id="yes-label">Yes</label><br><br>
+                <input type="radio" id="no" name="robot_check" value="no">
+                <label for="no" id="no-label">No</label><br><br>
+                <input type="radio" id="captcha" name="robot_check" value="captcha">
+                <label for="captcha" id="captcha-label">No captcha? I was not programmed like this...</label><br><br>
+            <!-- addd text area and checkboxes -->
+            <input type="submit" id="submit" value="Submit">
         </form>
     </body>
 </html>
