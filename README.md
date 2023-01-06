@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -15,7 +16,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details id="readme-top">
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
@@ -48,9 +49,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [freeCodeCamp](https://www.freecodecamp.org/learn)
+* [freeCodeCamp][acknowledgment]
 
-<p align="right">(<a href="readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -63,3 +64,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [project-reference]: https://survey-form.freecodecamp.rocks/
 [project-details]: https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form
 [web-page]: https://hateganfloringeorge.github.io/survey-form
+[acknowledgment]: https://www.freecodecamp.org/learn
