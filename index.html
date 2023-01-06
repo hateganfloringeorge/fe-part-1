@@ -37,7 +37,15 @@
                 <label for="no" id="no-label">No</label><br><br>
                 <input type="radio" id="captcha" name="robot_check" value="captcha">
                 <label for="captcha" id="captcha-label">No captcha? I was not programmed like this...</label><br><br>
-            <!-- addd text area and checkboxes -->
+            <p>Who are you? (Check all that apply)</p>
+                <input type="checkbox" id="just-a-bot" name="robot" value="robot">
+                <label for="just-a-bot" id="just-a-bot-lable">Just a bot, don't mind me</label><br><br>
+                <input type="checkbox" id="relative" name="relative" value="relative">
+                <label for="relative" id="relative-label">A relative, you are the best</label><br><br>
+                <input type="checkbox" id="hr" name="hr" value="hr">
+                <label for="hr" name="hr-label">HR representative</label><br><br>
+            <label for="text-area" id="text-area-label">Anything to add?</label>
+            <textarea id="text-area" name="text=area" rows="4" cols="40" placeholder="Suggest improvements or provide criticism"></textarea><br><br>
             <input type="submit" id="submit" value="Submit">
         </form>
     </body>
